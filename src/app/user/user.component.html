@@ -1,13 +1,13 @@
-<div class="user">
+<div class="user" [appChangeBackgroundColor]="index">
     <p>
         <span>Name: </span>
         <span>{{user.name}}</span>
     </p>
-    <p>
+    <p [appFirstDirective]="'blue'">
         <span>Phone: </span>
         <span>{{user.phone}}</span>
     </p>
-    <p>
+    <p [appFirstDirective]="'green'" [backgroundColor]="'rgb(40, 40, 58)'">
         <span>Email: </span>
         <span>{{user.email}}</span>
     </p>

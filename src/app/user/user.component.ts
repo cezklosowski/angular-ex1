@@ -9,6 +9,7 @@ import { User } from '../user.interface';
 export class UserComponent implements OnInit {
 
   @Input() user: User;
+  @Input() index: number;
   @Output() delete: EventEmitter<number> = new EventEmitter<number>();
   
 
