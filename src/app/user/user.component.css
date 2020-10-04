@@ -1,0 +1,10 @@
+.user {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border: 10px solid rgb(40, 40, 58);
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(191, 220, 230);
+    box-shadow: 5px 10px #888888;
+}
