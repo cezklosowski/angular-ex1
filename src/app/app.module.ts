@@ -6,6 +6,10 @@ import { UsersComponent } from './users/users.component';
 import { UserComponent } from './user/user.component';
 import { FirstDirectiveDirective } from './first-directive.directive';
 import { ChangeBackgroundColorDirective } from './change-background-color.directive';
+import { ModuloPipe } from './modulo.pipe';
+import { NameToUppercasePipe } from './name-to-uppercase.pipe';
+import { AppendWordPipePipe } from './append-word-pipe.pipe';
+import { DecimalToBinaryPipePipe } from './decimal-to-binary-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -13,7 +17,11 @@ import { ChangeBackgroundColorDirective } from './change-background-color.direct
     UsersComponent,
     UserComponent,
     FirstDirectiveDirective,
-    ChangeBackgroundColorDirective
+    ChangeBackgroundColorDirective,
+    ModuloPipe,
+    NameToUppercasePipe,
+    AppendWordPipePipe,
+    DecimalToBinaryPipePipe
   ],
   imports: [
     BrowserModule

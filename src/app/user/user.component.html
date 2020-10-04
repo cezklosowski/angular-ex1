@@ -1,7 +1,7 @@
 <div class="user" [appChangeBackgroundColor]="index">
     <p>
         <span>Name: </span>
-        <span>{{user.name}}</span>
+        <span>{{user.name | nameToUppercase | appendWordPipe :"dear"}}</span>
     </p>
     <p [appFirstDirective]="'blue'">
         <span>Phone: </span>
@@ -11,5 +11,10 @@
         <span>Email: </span>
         <span>{{user.email}}</span>
     </p>
+    <!-- <p>
+        {{ user | json }} // pipe do pliku json
+    </p> -->
+    
+    
     <button (click)="onDeleteButtonClick()">Delete me</button>
 </div>

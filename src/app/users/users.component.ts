@@ -30,6 +30,21 @@ export class UsersComponent implements OnInit {
       name: "Tomasz",
       phone: 700800900,
       email: "tomasz@gmail.com"
+    },
+    { id: 4,
+      name: "Zbigniew",
+      phone: 602700800,
+      email: "Zbigniew@gmail.com"
+    },
+    { id: 5,
+      name: "Julia",
+      phone: 600703800,
+      email: "julia@gmail.com"
+    },
+    { id: 5,
+      name: "Adam",
+      phone: 624700800,
+      email: "adam@gmail.com"
     }
   ];
 
