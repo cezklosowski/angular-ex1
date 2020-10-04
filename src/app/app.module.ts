@@ -10,6 +10,7 @@ import { ModuloPipe } from './modulo.pipe';
 import { NameToUppercasePipe } from './name-to-uppercase.pipe';
 import { AppendWordPipePipe } from './append-word-pipe.pipe';
 import { DecimalToBinaryPipePipe } from './decimal-to-binary-pipe.pipe';
+import { CountriesComponent } from './countries/countries.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DecimalToBinaryPipePipe } from './decimal-to-binary-pipe.pipe';
     ModuloPipe,
     NameToUppercasePipe,
     AppendWordPipePipe,
-    DecimalToBinaryPipePipe
+    DecimalToBinaryPipePipe,
+    CountriesComponent
   ],
   imports: [
     BrowserModule
