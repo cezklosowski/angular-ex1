@@ -14,9 +14,8 @@ export class UsersComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public usersList: Array<User>; 
 
-  userList = [
+  public usersList: Array<User> = [
     { id: 1,
       name: "Jan",
       phone: 500600700,
@@ -33,5 +32,11 @@ export class UsersComponent implements OnInit {
       email: "tomasz@gmail.com"
     }
   ];
+
+  // usuwanie użytkownika o danym id z listy użytkowników
+  public onUserDelete(id: number): void {
+    // filtracja listy -> zachowaj elementy spełniające warunek filtrowania
+    this.usersList = this.usersList.filter(user => id !== user.id);
+  }
 
 }
