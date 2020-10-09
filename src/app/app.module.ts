@@ -11,6 +11,8 @@ import { NameToUppercasePipe } from './name-to-uppercase.pipe';
 import { AppendWordPipePipe } from './append-word-pipe.pipe';
 import { DecimalToBinaryPipePipe } from './decimal-to-binary-pipe.pipe';
 import { CountriesComponent } from './countries/countries.component';
+import { TextWithForbiddenWordsHighlighterDirective } from './text-with-forbidden-words-highlighter.directive';
+import { TextToCheckComponent } from './text-to-check/text-to-check.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CountriesComponent } from './countries/countries.component';
     NameToUppercasePipe,
     AppendWordPipePipe,
     DecimalToBinaryPipePipe,
-    CountriesComponent
+    CountriesComponent,
+    TextWithForbiddenWordsHighlighterDirective,
+    TextToCheckComponent
   ],
   imports: [
     BrowserModule
